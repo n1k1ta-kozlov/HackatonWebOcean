@@ -1,0 +1,55 @@
+.wrapper-inhabitants {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    margin-bottom: 200px;
+}
+
+#silent-inhabitants,
+#atlant-inhabitants,
+#indian-inhabitants,
+#sevrniy-ledovitiy-inhabitants {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 80px;
+}
+
+.wrapper-inhabitants h2 {
+    font-size: 36px;
+    color: #d6e2ee
+}
+
+.inhabitants {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.inhabitant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inhabitant h1 {
+    padding-left: 150px;
+    color: #d6e2ee
+}
+
+.inhabitant h3 {
+    padding-right: 150px;
+    color: #d6e2ee
+}
+
+.img-inhabitant {
+    width: 400px;
+    height: 300px;
+    transition: transform 0.5s;
+}
+
+.img-inhabitant:hover {
+    transform: scale(1.04);
+}

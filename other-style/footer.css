@@ -1,0 +1,55 @@
+footer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-acua-man {
+    width: 800px;
+    height: 500px;
+    padding-left: 450px;
+}
+
+.content-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.navigations {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+
+.actions {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.icon-action {
+    width: 40px;
+}
+
+.ocean-navs,
+.inhabitants-navs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}   
+
+.title-footer {
+    font-size: 30px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.navs-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
